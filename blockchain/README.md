@@ -8,15 +8,15 @@
 ```text
 blockchain/
 ├── core/                    # 区块链核心底层原理实现 (Python)
-[cite_start]│   ├── merkle_tree.py       # Merkle 树哈希计算实现 [cite: 43]
-[cite_start]│   ├── pow_mining.py        # PoW 工作量证明挖矿模拟 [cite: 43]
+│   ├── merkle_tree.py       # Merkle 树哈希计算实现
+│   ├── pow_mining.py        # PoW 工作量证明挖矿模拟
 │   └── tx_verification.py   # 交易有效性验证与区块封装
 ├── contracts/               # 以太坊智能合约开发 (Solidity)
-[cite_start]│   ├── IERC20.sol           # ERC-20 标准接口协议 [cite: 3, 9]
-[cite_start]│   └── Airdrop.sol          # 批量代币分发（空投）合约 [cite: 11]
+│   ├── IERC20.sol           # ERC-20 标准接口协议
+│   └── Airdrop.sol          # 批量代币分发（空投）合约
 ├── docs/                    # 课程实验报告
-[cite_start]│   ├── lab_4.docx           # 实验四：Solidity 编程与智能合约入门 [cite: 1]
-[cite_start]│   └── lab_5.docx           # 实验五：空投合约原理与实现 [cite: 4]
+│   ├── lab_4.docx           # 实验四：Solidity 编程与智能合约入门
+│   └── lab_5.docx           # 实验五：空投合约原理与实现
 └── README.md                # 项目说明文档
 
 ```
