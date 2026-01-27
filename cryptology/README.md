@@ -45,7 +45,7 @@ $$\beta^r \cdot r^s \equiv \alpha^m \pmod p$$
 
 * **多重哈希校验**：支持 MD5 和 SHA256 算法，并提供 Hex 和 Base64 两种输出格式。
 * **Scrypt 密码存储系统**：采用加盐（Salt）机制，使用 `os.urandom(16)` 生成随机盐值，通过 Scrypt 派生函数增强对抗暴力破解的能力。
-    * Scrypt 配置参数：$n=16384, r=8, p=1$。
+    * Scrypt 配置参数： $n=16384, r=8, p=1$。
 
 ---
 
